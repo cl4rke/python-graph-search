@@ -50,6 +50,7 @@ for class1 in classes.values():
                         break
                 if is_conflict:
                     break
+
 def get_colors(classes):
     class_colors = {
             'red': [],
