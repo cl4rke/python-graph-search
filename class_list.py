@@ -81,7 +81,7 @@ def get_colors(classes):
 print '\n1. View all class names in the class list:'
 print '\n'.join([class_.name for class_ in classes.values()])
 
-print '\n2. View the studnets in a selected class:'
+print '\n2. View the students in a selected class:'
 print '\n'.join([class_.__str__() for class_ in classes.values()])
 
 print '\n3. View all the classes of a student:'
