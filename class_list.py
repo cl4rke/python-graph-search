@@ -73,8 +73,8 @@ def get_colors(classes):
     for color, color_classes in class_colors.iteritems():
         for class1 in classes:
             if class1.color is None and color_is_ok(color_classes, class1):
-                    color_classes.append(class1)
-                    class1.color = color
+                color_classes.append(class1)
+                class1.color = color
 
     return class_colors
 
